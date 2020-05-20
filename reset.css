@@ -1,0 +1,55 @@
+/*所有样式表都需要加*/
+@charset "utf-8";
+/*用来重置样式：清除标签默认样式*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+}
+ul,ol,li{
+    /*清除列表符号*/
+    list-style: none;
+}
+u,a{
+    /*清除默认下划线*/
+    text-decoration: none;
+}
+i,em{
+    /*清除默认倾斜*/
+    font-style: normal;
+}
+b,strong{
+    font-weight: normal;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+img{
+    /* 清除边框 */
+    border:none;
+}
+input{
+    /* 去掉聚焦时的蓝边框*/
+    outline: none;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.border_none{
+    border: none!important;
+}
+.bg_none{
+    background: none!important;
+}
+.text_ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

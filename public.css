@@ -1,0 +1,120 @@
+@charset "utf-8";
+/*公共属性*/
+.header-con,.nav_con,.footer_con{
+    width: 1002px;
+    margin:0 auto;
+}
+
+.header-con{
+    height: 100px;
+}
+.header-con h1{
+    width: 281px;
+    height: 66px;
+    float: left;
+    padding: 34px 0 0 20px;
+}
+.header-con form{
+    width: 248px;
+    height: 61px;
+    float: right;
+    /*给form添加padding-top 把搜索框挤下来*/
+    padding-top: 39px;
+}
+.header-con form .search{
+    width: 181px;
+    height: 26px;
+    background: #f1f1f1;
+    border: 1px solid #e5e5e5;
+    /*去掉右边框*/
+    border-right: none;
+    float: left;
+    /*控制文本颜色*/
+    color: #818181;
+    padding-left: 14px;
+}
+.header-con form .btn_box{
+    width: 30px;
+    height: 26px;
+    border: 1px solid #e5e5e5;
+    float: left;
+    border-left: none;
+}
+.header-con form .btn{
+    width: 30px;
+    height: 26px;
+    border:none;
+    /*设置背景色，导入背景图*/
+    background: #f1f1f1 url(../images/02-seacrh.jpg) no-repeat center;
+}
+
+/* nav */
+
+#nav{
+    height: 58px;
+    background: #303030;
+}
+.nav_con{
+    height: 58px;
+    margin:0 auto;
+    /*padding-left:27px;
+    width:975px;*/
+}
+.nav_con li{
+    float: left;
+    width: 119px;
+    height: 58px;
+    /*设置右边框*/
+    border-right: 1px solid #4a4a4a;
+    
+    text-align: center;
+    line-height: 58px;
+    font-size: 12px;
+}
+.nav_con li a{
+    /*如果自身有默认样式，必须调整自身的样式*/
+    color: #fff;
+    display: block;
+    width: 119px;
+    height: 58px;
+}
+.nav_con .margin_left{
+    margin-left:27px;
+}
+.nav_con .border_none{
+    border:none;
+}
+
+/* footer */
+
+.footer_con{
+    height: 82px;
+}
+.footer_l{
+    width: 248px;
+    height: 16px;
+    padding: 22px 0 0 13px;
+}
+.footer_list li{
+    font-size: 10px;
+    border-right: 1px solid #7d7d7d;
+    float: left;
+    padding:0 7px;
+}
+.footer_list li a{
+    color: #777;
+    
+}
+.footer_list .border_none{
+    border:none;
+}
+.footer_r p{
+    font-size: 10px;
+    color: #777;
+    padding-top: 22px;
+
+}
+.footer_r img{
+    float: right;
+    padding-top: 22px;
+}
